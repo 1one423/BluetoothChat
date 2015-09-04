@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4EDFDA41B99300A0082A5E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EDFDA31B99300A0082A5E4 /* AppDelegate.swift */; };
+		F4EDFDA71B99300A0082A5E4 /* BluetoothChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4EDFDA51B99300A0082A5E4 /* BluetoothChat.xcdatamodeld */; };
+		F4EDFDA91B99300A0082A5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EDFDA81B99300A0082A5E4 /* ViewController.swift */; };
+		F4EDFDAC1B99300A0082A5E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EDFDAA1B99300A0082A5E4 /* Main.storyboard */; };
+		F4EDFDAE1B99300A0082A5E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EDFDAD1B99300A0082A5E4 /* Images.xcassets */; };
+		F4EDFDB11B99300A0082A5E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4EDFDAF1B99300A0082A5E4 /* LaunchScreen.xib */; };
+		F4EDFDBD1B99300A0082A5E4 /* BluetoothChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EDFDBC1B99300A0082A5E4 /* BluetoothChatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4EDFDB71B99300A0082A5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4EDFD961B99300A0082A5E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EDFD9D1B99300A0082A5E4;
+			remoteInfo = BluetoothChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4EDFD9E1B99300A0082A5E4 /* BluetoothChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EDFDA21B99300A0082A5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EDFDA31B99300A0082A5E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4EDFDA61B99300A0082A5E4 /* BluetoothChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BluetoothChat.xcdatamodel; sourceTree = "<group>"; };
+		F4EDFDA81B99300A0082A5E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4EDFDAB1B99300A0082A5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4EDFDAD1B99300A0082A5E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4EDFDB01B99300A0082A5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4EDFDB61B99300A0082A5E4 /* BluetoothChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EDFDBB1B99300A0082A5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EDFDBC1B99300A0082A5E4 /* BluetoothChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothChatTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4EDFD9B1B99300A0082A5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EDFDB31B99300A0082A5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4EDFD951B99300A0082A5E4 = {
+			isa = PBXGroup;
+			children = (
+				F4EDFDA01B99300A0082A5E4 /* BluetoothChat */,
+				F4EDFDB91B99300A0082A5E4 /* BluetoothChatTests */,
+				F4EDFD9F1B99300A0082A5E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4EDFD9F1B99300A0082A5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4EDFD9E1B99300A0082A5E4 /* BluetoothChat.app */,
+				F4EDFDB61B99300A0082A5E4 /* BluetoothChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EDFDA01B99300A0082A5E4 /* BluetoothChat */ = {
+			isa = PBXGroup;
+			children = (
+				F4EDFDA31B99300A0082A5E4 /* AppDelegate.swift */,
+				F4EDFDA81B99300A0082A5E4 /* ViewController.swift */,
+				F4EDFDAA1B99300A0082A5E4 /* Main.storyboard */,
+				F4EDFDAD1B99300A0082A5E4 /* Images.xcassets */,
+				F4EDFDAF1B99300A0082A5E4 /* LaunchScreen.xib */,
+				F4EDFDA51B99300A0082A5E4 /* BluetoothChat.xcdatamodeld */,
+				F4EDFDA11B99300A0082A5E4 /* Supporting Files */,
+			);
+			path = BluetoothChat;
+			sourceTree = "<group>";
+		};
+		F4EDFDA11B99300A0082A5E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4EDFDA21B99300A0082A5E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4EDFDB91B99300A0082A5E4 /* BluetoothChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4EDFDBC1B99300A0082A5E4 /* BluetoothChatTests.swift */,
+				F4EDFDBA1B99300A0082A5E4 /* Supporting Files */,
+			);
+			path = BluetoothChatTests;
+			sourceTree = "<group>";
+		};
+		F4EDFDBA1B99300A0082A5E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4EDFDBB1B99300A0082A5E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4EDFD9D1B99300A0082A5E4 /* BluetoothChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EDFDC01B99300A0082A5E4 /* Build configuration list for PBXNativeTarget "BluetoothChat" */;
+			buildPhases = (
+				F4EDFD9A1B99300A0082A5E4 /* Sources */,
+				F4EDFD9B1B99300A0082A5E4 /* Frameworks */,
+				F4EDFD9C1B99300A0082A5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothChat;
+			productName = BluetoothChat;
+			productReference = F4EDFD9E1B99300A0082A5E4 /* BluetoothChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4EDFDB51B99300A0082A5E4 /* BluetoothChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EDFDC31B99300A0082A5E4 /* Build configuration list for PBXNativeTarget "BluetoothChatTests" */;
+			buildPhases = (
+				F4EDFDB21B99300A0082A5E4 /* Sources */,
+				F4EDFDB31B99300A0082A5E4 /* Frameworks */,
+				F4EDFDB41B99300A0082A5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4EDFDB81B99300A0082A5E4 /* PBXTargetDependency */,
+			);
+			name = BluetoothChatTests;
+			productName = BluetoothChatTests;
+			productReference = F4EDFDB61B99300A0082A5E4 /* BluetoothChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4EDFD961B99300A0082A5E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = " 李俊";
+				TargetAttributes = {
+					F4EDFD9D1B99300A0082A5E4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F4EDFDB51B99300A0082A5E4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F4EDFD9D1B99300A0082A5E4;
+					};
+				};
+			};
+			buildConfigurationList = F4EDFD991B99300A0082A5E4 /* Build configuration list for PBXProject "BluetoothChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4EDFD951B99300A0082A5E4;
+			productRefGroup = F4EDFD9F1B99300A0082A5E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4EDFD9D1B99300A0082A5E4 /* BluetoothChat */,
+				F4EDFDB51B99300A0082A5E4 /* BluetoothChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4EDFD9C1B99300A0082A5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EDFDAC1B99300A0082A5E4 /* Main.storyboard in Resources */,
+				F4EDFDB11B99300A0082A5E4 /* LaunchScreen.xib in Resources */,
+				F4EDFDAE1B99300A0082A5E4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EDFDB41B99300A0082A5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4EDFD9A1B99300A0082A5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EDFDA91B99300A0082A5E4 /* ViewController.swift in Sources */,
+				F4EDFDA71B99300A0082A5E4 /* BluetoothChat.xcdatamodeld in Sources */,
+				F4EDFDA41B99300A0082A5E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EDFDB21B99300A0082A5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EDFDBD1B99300A0082A5E4 /* BluetoothChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4EDFDB81B99300A0082A5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4EDFD9D1B99300A0082A5E4 /* BluetoothChat */;
+			targetProxy = F4EDFDB71B99300A0082A5E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4EDFDAA1B99300A0082A5E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EDFDAB1B99300A0082A5E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4EDFDAF1B99300A0082A5E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EDFDB01B99300A0082A5E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4EDFDBE1B99300A0082A5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4EDFDBF1B99300A0082A5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4EDFDC11B99300A0082A5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BluetoothChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4EDFDC21B99300A0082A5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BluetoothChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4EDFDC41B99300A0082A5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BluetoothChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothChat.app/BluetoothChat";
+			};
+			name = Debug;
+		};
+		F4EDFDC51B99300A0082A5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BluetoothChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothChat.app/BluetoothChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4EDFD991B99300A0082A5E4 /* Build configuration list for PBXProject "BluetoothChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EDFDBE1B99300A0082A5E4 /* Debug */,
+				F4EDFDBF1B99300A0082A5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4EDFDC01B99300A0082A5E4 /* Build configuration list for PBXNativeTarget "BluetoothChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EDFDC11B99300A0082A5E4 /* Debug */,
+				F4EDFDC21B99300A0082A5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4EDFDC31B99300A0082A5E4 /* Build configuration list for PBXNativeTarget "BluetoothChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EDFDC41B99300A0082A5E4 /* Debug */,
+				F4EDFDC51B99300A0082A5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4EDFDA51B99300A0082A5E4 /* BluetoothChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4EDFDA61B99300A0082A5E4 /* BluetoothChat.xcdatamodel */,
+			);
+			currentVersion = F4EDFDA61B99300A0082A5E4 /* BluetoothChat.xcdatamodel */;
+			path = BluetoothChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4EDFD961B99300A0082A5E4 /* Project object */;
+}
